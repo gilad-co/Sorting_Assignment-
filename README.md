@@ -1,6 +1,6 @@
 # Sorting Algorithms Analysis - Assignment 1
 
-**Student Name:** Channah Freiman and Gilad Cohen 
+**Student Name:** Channah Freiman ID:211338678 , Gilad Cohen  ID:319126066
 
 ## Overview
 This project evaluates the performance of three sorting algorithms (Bubble Sort, Merge Sort, and Quick Sort) under different conditions: random arrays and nearly sorted arrays with noise.
