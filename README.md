@@ -10,7 +10,7 @@ This project evaluates the performance of three sorting algorithms (Bubble Sort,
 2. **Merge Sort (ID: 4)**: A stable O(n log n) divide-and-conquer algorithm.
 3. **Quick Sort (ID: 5)**: An O(n log n) algorithm using a random pivot for efficiency.
 
-## 2. Handling Bubble Sort's Inefficiency
+## Handling Bubble Sort's Inefficiency
 To handle Bubble Sort's O(n^2) complexity on massive arrays, we opted to run it only on smaller inputs (capped at n=10,000) rather than relying on theoretical estimations. This empirical approach prevents system crashes while providing a concrete, visual baseline to clearly demonstrate the performance gap between O(n^2) and O(n log n) algorithms.
 
 ## Results and Analysis
@@ -32,4 +32,4 @@ The script supports command-line arguments for algorithms (-a), sizes (-s), expe
 
 **Example Command (for 20% noise):**
 ```bash
-python run_experiments.py -a 1 4 5 -s 100 500 1000 3000 5000 10000 100000 1000000 -e 2 -r 3
+python run_experiments.py -a 1 4 5 -s 100 500 1000 3000 5000 10000 100000 1000000 -e 2 -r 20
